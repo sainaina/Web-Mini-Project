@@ -3,31 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>CSTAD HRMS Login </title>
+    <link rel="icon" href="https://cdn.builder.io/api/v1/image/assets/TEMP/0ac35cce0592c469cff9081a7c676f71579d1a66aa4395f8522094a4fea906de?apiKey=66fa4205ed5a4558a776cf72c5db088b&">
 </head>
 <body>
-    <section class="flex flex-col pb-6 rounded-xl bg-neutral-100">
-        <header class="flex gap-4 px-20 py-2.5 text-2xl font-medium text-white bg-blue-800 max-md:flex-wrap max-md:px-5">
-        <a href="../html/mini.html">
+  <!-- header -->
+    <header>
+    <section class="flex flex-col rounded-xl bg-neutral-100">
+        <div class="flex gap-4 px-20 py-2.5 text-2xl font-medium text-white bg-blue-800 max-md:flex-wrap max-md:px-5">
+        <a href="../html/home.html">
           <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/0ac35cce0592c469cff9081a7c676f71579d1a66aa4395f8522094a4fea906de?apiKey=66fa4205ed5a4558a776cf72c5db088b&" alt="Company Logo" class="shrink-0 aspect-square w-[62px]" />
         </a>
           <div class="flex-auto my-auto max-md:max-w-full">CSTAD-HR</div>
-        </header>
-      
-        <main class="flex flex-col self-center pl- mt-20 w-full max-w-[1309px] max-md:mt-10 max-md:max-w-full">
+      </div>
+    </header>
+    <main>
+    </section>
+        <div class="flex px-20 flex-col self-center mt-24 w-full max-w-[1309px] max-md:mt-10 max-md:max-w-full">
           <div class="max-md:max-w-full">
-            <div class="flex gap-[100px] max-md:flex-col max-md:gap-0">
-              <figure class="flex w-[550px] max-md:ml-0 max-md:w-full">
-                <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/df3364f823c16a619ba7307c45ee93d5e1bc8fc976d56ced18b680b291b3633e?apiKey=66fa4205ed5a4558a776cf72c5db088b&" alt="Decorative Illustration" class="self-stretch my-auto w-full aspect-[1.1] max-md:mt-10 max-md:max-w-full" />
+            <div class="flex gap-[50px] pt-11 max-md:flex-col max-md:gap-0">
+              <figure class="flex  max-md:ml-0 max-md:w-full">
+                <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/df3364f823c16a619ba7307c45ee93d5e1bc8fc976d56ced18b680b291b3633e?apiKey=66fa4205ed5a4558a776cf72c5db088b&" alt="Decorative Illustration" class="  w-[700px] aspect-[1.1] max-md:mt-10 max-md:max-w-full" />
               </figure>
       
-              <section class="flex flex-col ml-5 w-5/12 max-md:ml-0 max-md:w-full">
+              <section class="flex flex-col w-6/12 max-md:ml-0 max-md:w-full">
                 <article class="flex flex-col grow px-16 py-12 w-full bg-white rounded-xl border-2 border-blue-700 border-solid max-md:px-5 max-md:mt-10 max-md:max-w-full">
                   <h1 class="text-3xl font-medium text-black max-md:max-w-full">Log in</h1>
                   <p class="mt-8 text-base text-black max-md:max-w-full">If you don’t have an account register</p>
                   <p class="mt-3.5 text-base max-md:max-w-full">You can <span class="font-semibold text-blue-400 text-blue-400">Register here!</span></p>
       
-                  <form class="mt-14 max-md:mt-10 max-md:max-w-full">
+                  <form class="mt-10 max-md:mt-10 max-md:max-w-full">
                     <label for="emailInput" class="text-sm font-medium text-neutral-400">Email</label>
                     <div class="flex gap-2.5 mt-5 text-base whitespace-nowrap text-slate-900 max-md:flex-wrap">
                       <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/1584203df2a9456634f64ee03f3a6fbff2a7caf543a79cfe57d4263c99f32ee2?apiKey=66fa4205ed5a4558a776cf72c5db088b&" alt="Email Icon" class="shrink-0 self-start aspect-square w-[17px]" />
@@ -35,7 +40,7 @@
                     </div>
                     <div class="shrink-0 mt-2.5 h-0.5 bg-slate-900 max-md:max-w-full"></div>
       
-                    <div class="flex gap-5 justify-between items-start mx-3 mt-14 whitespace-nowrap max-md:flex-wrap max-md:pr-5 max-md:mt-10 max-md:mr-2.5 max-md:max-w-full">
+                    <div class="flex gap-5 justify-between items-start mx-3 mt-12 whitespace-nowrap max-md:flex-wrap max-md:pr-5 max-md:mt-10 max-md:mr-2.5 max-md:max-w-full">
                       <div class="flex flex-col self-start">
                         <label for="passwordInput" class="text-sm font-medium text-neutral-400">Password</label>
                         <div class="flex gap-3 mt-5 text-base text-slate-900">
@@ -54,18 +59,21 @@
                       </div>
                       <div class="flex-auto text-neutral-600">Forgot Password?</div>
                     </div>
-                    <a href="../html/dashboard.html">
-                    <button class="justify-center items-center px-16 py-5 mt-16 text-lg font-medium text-white whitespace-nowrap bg-blue-700 rounded-xl shadow-lg max-md:px-5 max-md:mt-10 max-md:max-w-full"><a href="../html/dashboard.html">Log In</a></button>
-                    </a>
+                      <div class="flex justify-center">
+                    <button class=" px-12 py-5 mt-16 text-lg font-medium text-white whitespace-nowrap bg-blue-700 rounded-xl shadow-lg max-md:px-5 max-md:mt-10 max-md:max-w-full"><a href="../html/dashboard.html">Log In</a></button>
+                  </div>
                   </form>
                 </article>
               </section>
             </div>
           </div>
-        </main>
-      
-        <footer class="self-end mt-32 text-lg text-white max-md:mt-10 max-md:max-w-full">© 2024 Center of Science and Technology Advanced Development | All Rights Reserved</footer>
-      </section>
+        </div>
+      </main>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+          <path fill="#1D4ED8"  fill-opacity="1" d="M0,96L26.7,85.3C53.3,75,107,53,160,74.7C213.3,96,267,160,320,186.7C373.3,213,427,203,480,202.7C533.3,203,587,213,640,192C693.3,171,747,117,800,133.3C853.3,149,907,235,960,250.7C1013.3,267,1067,213,1120,208C1173.3,203,1227,245,1280,240C1333.3,235,1387,181,1413,154.7L1440,128L1440,320L1413.3,320C1386.7,320,1333,320,1280,320C1226.7,320,1173,320,1120,320C1066.7,320,1013,320,960,320C906.7,320,853,320,800,320C746.7,320,693,320,640,320C586.7,320,533,320,480,320C426.7,320,373,320,320,320C266.7,320,213,320,160,320C106.7,320,53,320,27,320L0,320Z">
+        </path>
+      </svg>
+       
       <script src="https://cdn.tailwindcss.com"></script>
 </body>
 </html>
